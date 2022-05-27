@@ -1,4 +1,4 @@
-### Hi there 👋
+### Junior Front-end Developer 👋
 
 <!--
 **samgxlden/samgxlden** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
