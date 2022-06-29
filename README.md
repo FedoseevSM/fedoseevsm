@@ -1,4 +1,4 @@
-### Фронтенд-разработчик // Junior Front-end Developer
+### Фронтенд-разработчик
 Имею опыт работы с продающими интернет-магазинами товаров, услуг. В том числе, применяю различные инструменты, включая CMS для улучшения конверсий. Владею навыками вёрстки, администрирования и продвижения веб-сайтов и приложений. Быстро учусь и не пугаюсь нового.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samgxlden&layout=compact)](https://github.com/samgxlden?tab=repositories)
