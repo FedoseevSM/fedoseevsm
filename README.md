@@ -28,6 +28,8 @@ Here are some ideas to get you started:
 >
 > **Хабр Q&A**: <https://qna.habr.com/user/semyonfedoseev>
 >
+> **Codewars:** <https://www.codewars.com/users/semyonfedoseev>
+>
 > **GitHub Gist:** <https://gist.github.com/samgxlden>
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
