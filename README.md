@@ -26,7 +26,7 @@ Here are some ideas to get you started:
 >
 > **Хабр Q&A**: <https://qna.habr.com/user/semyonfedoseev>
 >
-> **Gist:** <https://gist.github.com/samgxlden>
+> **GitHub Gist:** <https://gist.github.com/samgxlden>
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
 >
