@@ -30,9 +30,13 @@ Here are some ideas to get you started:
 >
 > **Codewars:** <https://www.codewars.com/users/semyonfedoseev>
 >
+> **YouTube:** <https://www.youtube.com/channel/UCk6m53EFlDg9DaHvgkvg_lQ>
+>
 > **GitHub Gist:** <https://gist.github.com/samgxlden>
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
+>
+> **LinkedIn:** <https://www.linkedin.com/in/semyon-fedoseev-0b5774233/>
 >
 > **E-mail:** <samgxlden@gmail.com>
 >
