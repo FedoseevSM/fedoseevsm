@@ -30,6 +30,10 @@ Here are some ideas to get you started:
 >
 > **Codewars:** <https://www.codewars.com/users/semyonfedoseev>
 >
+> **LeetCode:** <https://leetcode.com/samgxlden/>
+>
+> **SmartProgress:** <https://smartprogress.do/user/682911/>
+>
 > **YouTube:** <https://www.youtube.com/channel/UCk6m53EFlDg9DaHvgkvg_lQ>
 >
 > **GitHub Gist:** <https://gist.github.com/samgxlden>
