@@ -32,6 +32,8 @@ Here are some ideas to get you started:
 >
 > **freeCodeCamp:** <https://www.freecodecamp.org/semyonfedoseev>
 >
+> **HTML Academy:** <https://htmlacademy.ru/profile/id2084467>
+>
 > **LeetCode:** <https://leetcode.com/samgxlden/>
 >
 > **SmartProgress:** <https://smartprogress.do/user/682911/>
