@@ -30,6 +30,8 @@ Here are some ideas to get you started:
 >
 > **Codewars:** <https://www.codewars.com/users/semyonfedoseev>
 >
+> **freeCodeCamp:** <https://www.freecodecamp.org/semyonfedoseev>
+>
 > **LeetCode:** <https://leetcode.com/samgxlden/>
 >
 > **SmartProgress:** <https://smartprogress.do/user/682911/>
