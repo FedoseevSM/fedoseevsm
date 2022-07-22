@@ -3,7 +3,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samgxlden&layout=compact)](https://github.com/samgxlden?tab=repositories)
 
-[Ссылка на резюме](https://github.com/samgxlden/samgxlden/blob/859d0dc8313fcfa6f3bf362f34eaecb3c228d04c/Junior%20Front-end%20Developer.pdf "Фронтенд-разработчик // Junior Front-end Developer")
+📰 [Ссылка на резюме](https://github.com/samgxlden/samgxlden/blob/859d0dc8313fcfa6f3bf362f34eaecb3c228d04c/Junior%20Front-end%20Developer.pdf "Фронтенд-разработчик // Junior Front-end Developer")
 
 
 <!--
