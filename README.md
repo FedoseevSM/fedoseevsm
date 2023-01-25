@@ -22,8 +22,6 @@
 >
 > **SmartProgress:** <https://smartprogress.do/user/682911/>
 >
-> **YouTube:** <https://www.youtube.com/channel/UCk6m53EFlDg9DaHvgkvg_lQ>
->
 > **GitHub Gist:** <https://gist.github.com/samgxlden>
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
