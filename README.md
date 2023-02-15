@@ -3,7 +3,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fedoseevsm&layout=compact)](https://github.com/fedoseevsm?tab=repositories)
 
-📰 [Ссылка на резюме](https://github.com/samgxlden/samgxlden/blob/859d0dc8313fcfa6f3bf362f34eaecb3c228d04c/Junior%20Front-end%20Developer.pdf "Фронтенд-разработчик // Junior Front-end Developer")
+📰 [Ссылка на резюме](# "Фронтенд-разработчик // Junior Front-end Developer")
 
 ---
 
@@ -22,7 +22,7 @@
 >
 > **SmartProgress:** <https://smartprogress.do/user/682911/>
 >
-> **GitHub Gist:** <https://gist.github.com/samgxlden>
+> **GitHub Gist:** <https://gist.github.com/fedoseevsm>
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
 >
