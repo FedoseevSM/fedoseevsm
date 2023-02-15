@@ -3,7 +3,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fedoseevsm&layout=compact)](https://github.com/fedoseevsm?tab=repositories)
 
-📰 [Ссылка на резюме](# "Фронтенд-разработчик // Junior Front-end Developer")
+📰 [Ссылка на резюме](# "Middle Front-end Developer")
 
 ---
 
