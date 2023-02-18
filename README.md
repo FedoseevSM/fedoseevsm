@@ -1,29 +1,13 @@
 ### Фронтенд-разработчик
-Имею опыт работы с продающими интернет-магазинами товаров, услуг. В том числе, применяю различные инструменты, включая CMS для оптимизации конверсий. Владею навыками вёрстки, администрирования и продвижения веб-сайтов и приложений. Быстро учусь и не пугаюсь нового.
+Имею опыт работы с продающими интернет-магазинами товаров, услуг. В том числе, применяю различные инструменты, включая CMS, для улучшения конверсий. Владею навыками вёрстки, администрирования, а также продвижения веб-сайтов и веб-приложений. Заинтересован в работе с проектами React. Быстро учусь и готов к новому.
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fedoseevsm&layout=compact)](https://github.com/fedoseevsm?tab=repositories)
 
-📰 [Ссылка на резюме](# "Middle Front-end Developer")
+📰 [Ссылка на резюме](https://github.com/FedoseevSM/fedoseevsm/blob/main/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20Middle%20Frontend-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%20TypeScript%20React.pdf)
 
 ---
 
 #### ⚡ Активность:
-> **CodePen**: <https://codepen.io/semyonfedoseev>
->
-> **Хабр Q&A**: <https://qna.habr.com/user/semyonfedoseev>
->
-> **Codewars:** <https://www.codewars.com/users/semyonfedoseev>
->
-> **freeCodeCamp:** <https://www.freecodecamp.org/semyonfedoseev>
->
-> **HTML Academy:** <https://htmlacademy.ru/profile/id2084467>
->
-> **LeetCode:** <https://leetcode.com/samgxlden/>
->
-> **SmartProgress:** <https://smartprogress.do/user/682911/>
->
-> **GitHub Gist:** <https://gist.github.com/fedoseevsm>
+[Codewars](https://www.codewars.com/users/semyonfedoseev) | [LeetCode](https://leetcode.com/samgxlden) | [SmartProgress](https://smartprogress.do/user/682911)
 #### 💬 Контакты:
 > **Telegram**: <https://t.me/semyonfedoseev>
->
-> **LinkedIn:** <https://www.linkedin.com/in/semyon-fedoseev-0b5774233/>
