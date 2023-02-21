@@ -10,4 +10,4 @@
 #### ⚡ Активность:
 [Codewars](https://www.codewars.com/users/semyonfedoseev) | [LeetCode](https://leetcode.com/samgxlden) | [SmartProgress](https://smartprogress.do/user/682911)
 #### 💬 Контакты:
-Telegram: <https://t.me/semyonfedoseev>
+Telegram: [@semyonfedoseev](https://t.me/semyonfedoseev)
