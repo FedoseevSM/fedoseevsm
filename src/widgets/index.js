@@ -1,0 +1,5 @@
+export * from "./footer/index.js"
+export * from "./game/index.js"
+export * from "./header/index.js"
+export * from "./sidebar/index.js"
+export * from "./statistics/index.js"

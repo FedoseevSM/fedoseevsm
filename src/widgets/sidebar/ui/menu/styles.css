@@ -1,0 +1,16 @@
+.menu > * {
+    margin-bottom: 10px;
+}
+
+.menu > *:last-child {
+    margin: 0px;
+}
+
+.menu {
+    height: 100%;
+    overflow: auto;
+}
+
+.menu-container {
+    height: calc(100vh - 250px);
+}

@@ -1,0 +1,14 @@
+@media (max-width: 1023px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar {
+        display: block;
+    }
+    .navbar-mobile {
+        display: none;
+    }
+}

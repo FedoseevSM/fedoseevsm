@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>Документ без названия</title>
+    <script src="lib/babel/polyfill.min.js"></script>
+    <script crossorigin src="lib/react/react.production.min.js"></script>
+    <script src="lib/systemjs/src/system.js"></script>
+    <script>
+      SystemJS.config({
+        defaultExtension: true,
+        meta: {
+          "*.css": {
+            loader: "css",
+          },
+        },
+        babelOptions: {
+          react: true,
+        },
+        map: {
+          "plugin-babel": "lib/systemjs/plugins/plugin-babel/plugin-babel.js",
+          "systemjs-babel-build":
+            "lib/systemjs/plugins/plugin-babel/systemjs-babel-browser.js",
+          react: "lib/react/react.production.min.js",
+          "react-dom": "lib/react/react-dom.production.min.js",
+          css: "lib/systemjs/plugins/plugin-css/css.js",
+          classnames: "lib/classnames/index.min.js",
+          "react-router-dom": "lib/@remix-run/react-router-dom/react-router-dom.production.min.js",
+          "react-router": "lib/@remix-run/react-router/react-router.production.min.js",
+          "@remix-run/router": "lib/@remix-run/router/remix-run.router.min.js",
+        },
+        transpiler: "plugin-babel",
+      })
+      SystemJS.config({
+        map: {
+          "@shared/ui": "src/shared/ui/index.js",
+          "@shared/lib/hooks": "src/shared/lib/hooks/index.js",
+          "@shared/config": "src/shared/config/index.js",
+          "@app": "src/app/index.js",
+          "@pages": "src/pages/index.js",
+          "@widgets": "src/widgets/index.js",
+          "@widgets/layouts": "src/widgets/layouts/index.js",
+        }
+      })
+      SystemJS.import("src/main.jsx").then(function (module) {
+        console.log("REACT START")
+      })
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+  </body>
+</html>

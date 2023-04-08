@@ -1,0 +1,19 @@
+#modal-root {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: absolute;
+    z-index: 999;
+    background-color: #000;
+}
+
+.backdrop {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+}
