@@ -5,10 +5,19 @@ import { Nav } from "@shared/ui"
 import { useBinaryState } from "@shared/lib/hooks"
 import { pages } from "@shared/config"
 
+import { UpOutlined, DownOutlined } from "@ant-design/icons"
+
+import { Button } from "antd"
+
+import {
+  MenuFoldOutlined,
+  MenuUnfoldOutlined
+} from '@ant-design/icons';
+
 import "./styles.css"
 
 export const LeftSidebar = () => {
-  const [sidebar, sidebarShow, sidebarClose] = useBinaryState(true)
+  const [sidebar, sidebarShow, sidebarClose, sidebarToggle] = useBinaryState(true)
   let location = useLocation()
   const path = location.pathname
 
@@ -20,25 +29,26 @@ export const LeftSidebar = () => {
     <div className="left-sidebar">
       {sidebar && <Sidebar />}
       <div className="scroller">
-        {sidebar && (
-          <button onClick={sidebarClose} className="">
-            Hide Sidebar
-          </button>
-        )}
-        {!sidebar && (
-          <button onClick={sidebarShow} className="">
-            Show Sidebar
-          </button>
-        )}
+        <Button
+          type="text"
+          icon={!sidebar ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+          onClick={() => sidebarToggle()}
+          style={{
+            fontSize: '16px',
+            width: "100%",
+            height: 46,
+            borderRadius: 0
+          }}
+        />
         <div className="scroller__page">
           {pageUp && (
             <Nav to={pageUp} style={{ height: "100%" }}>
-              <button className="scroller__btn">UP</button>
+              <Button style={{ borderRadius: 0 }} type="text" className="scroller__btn"><UpOutlined /></Button>
             </Nav>
           )}
           {pageDown && (
             <Nav to={pageDown} style={{ height: "100%" }}>
-              <button className="scroller__btn">DOWN</button>
+              <Button style={{ borderRadius: 0 }} type="text" className="scroller__btn"><DownOutlined /></Button>
             </Nav>
           )}
         </div>

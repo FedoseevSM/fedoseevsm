@@ -5,7 +5,7 @@ export const useBinaryState = (defaultValue) => {
 
   const setTrue = React.useCallback(() => setValue(true), [])
   const setFalse = React.useCallback(() => setValue(false), [])
-//   const toggle = React.useCallback(() => setValue(x => !x), [])
+  const toggle = React.useCallback(() => setValue(x => !x), [])
 
-  return [ value, setTrue, setFalse ]
+  return [ value, setTrue, setFalse, toggle ]
 }
