@@ -1,24 +1,32 @@
 import { Menu } from "antd"
 
-import { Game } from "@widgets"
-import { Statistics } from "@widgets"
+import { Statistics, Welcome } from "@widgets"
+
+const menu = [
+  {
+    key: 0,
+    label: "Привет"
+  },
+  {
+    key: 1,
+    label: "GitHub"
+  }
+]
 
 export const HomePage = () => {
   return (
-    <div style={{backgroundColor: "#cecece", height: "100%"}}>
-       <Menu
-                theme="dark"
-                mode="horizontal"
-                defaultSelectedKeys={['2']}
-                items={new Array(3).fill(null).map((_, index) => ({
-                  key: String(index + 1),
-                  label: `nav ${index + 1}`,
-                }))}
-            />
-                <div style={{margin: 30, backgroundColor: "#fff"}}>
-      <Game />
-      <Statistics />
-    </div>
+    <div style={{ backgroundColor: "#cecece", height: "10009px" }}>
+      <Menu
+        theme="dark"
+        mode="horizontal"
+        defaultSelectedKeys={['0']}
+        items={menu}
+        style={{ height: 46, position: "sticky", top: 0, zIndex: 999999 }}
+      />
+        <Welcome />
+      <div style={{ margin: 30, backgroundColor: "#fff" }}>
+        <Statistics />
+      </div>
     </div>
   )
 }
