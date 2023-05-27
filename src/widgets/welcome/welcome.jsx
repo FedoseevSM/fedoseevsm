@@ -9,10 +9,8 @@ export const Welcome = () => {
         if (splitting.current) Splitting({ target: splitting.current, by: 'chars' })
     }, [])
     return (
-        <div className="welcome">
-            <div ref={splitting} class="without" data-splitting>
-                Привет, меня зовут Семён
-            </div>
+        <div ref={splitting} class="without" data-splitting>
+            Привет, я Веб-разработчик
         </div>
     )
 }
