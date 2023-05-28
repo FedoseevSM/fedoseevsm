@@ -81,7 +81,7 @@ export const LeftSidebar = () => {
           )}
         </div>
       </div>
-      <div className="body" style={{ maxHeight: "100vh", overflow: "auto" }}>
+      <div className="body" style={{ maxHeight: "100vh", overflow: "hidden" }}>
         <Header />
         <Outlet />
       </div>

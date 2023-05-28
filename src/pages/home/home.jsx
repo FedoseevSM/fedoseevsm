@@ -65,7 +65,7 @@ export const HomePage = () => {
       <Menu
         theme="dark"
         mode="horizontal"
-        defaultSelectedKeys={[section ? section : "welcome"]}
+        selectedKeys={[section ? section : "welcome"]}
         items={menu}
         style={{ height: 46, position: "sticky", top: 0, zIndex: 999999 }}
       />
