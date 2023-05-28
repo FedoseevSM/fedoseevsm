@@ -3,7 +3,7 @@ import Splitting from "splitting"
 
 import "./styles.css"
 
-export const Welcome = () => {
+export const WelcomeScreen = () => {
     let splitting = React.useRef(null)
     React.useEffect(() => {
         if (splitting.current) Splitting({ target: splitting.current, by: 'chars' })

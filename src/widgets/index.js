@@ -1,5 +1,3 @@
-export * from "./footer/index.js"
-export * from "./welcome/index.js"
-export * from "./header/index.js"
 export * from "./sidebar/index.js"
-export * from "./statistics/index.js"
+export * from "./welcome-screen/index.js"
+export * from "./skills-screen/index.js"

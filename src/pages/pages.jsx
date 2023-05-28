@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 
-import { LeftSidebar } from "@widgets/layouts"
+import { BaseLayout } from "@shared/ui"
 
 import {
   HomePage,
@@ -14,7 +14,7 @@ import {
 export const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<LeftSidebar />}>
+      <Route path="/" element={<BaseLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/faq" element={<FaqPage />} />
         <Route path="/win-go" element={<WinGoPage />} />

@@ -1,4 +1,4 @@
-export const Statistics = () => {
+export const SkillsScreen = () => {
     return (
         <div>
             Statistics

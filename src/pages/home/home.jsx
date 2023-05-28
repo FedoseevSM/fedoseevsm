@@ -5,7 +5,7 @@ import { useQuery } from "@shared/lib/hooks"
 
 import "./styles.css"
 
-import { Statistics, Welcome } from "@widgets"
+import { SkillsScreen, WelcomeScreen } from "@widgets"
 import { DownCircleOutlined } from "@ant-design/icons"
 
 export const HomePage = () => {
@@ -70,14 +70,14 @@ export const HomePage = () => {
         style={{ height: 46, position: "sticky", top: 0, zIndex: 999999 }}
       />
       <section className="screen">
-        <Welcome />
+        <WelcomeScreen />
         <Tooltip title="Навыки" >
           <DownCircleOutlined style={{ fontSize: 36 }} className="bounce" onClick={handleSkills} />
         </Tooltip>
       </section>
       <section className="screen" ref={screenSkills}>
         <div style={{ margin: 30, backgroundColor: "#fff", width: "100%" }}>
-          <Statistics />
+          <SkillsScreen />
         </div>
         <DownCircleOutlined style={{ fontSize: 36 }} className="bounce" />
       </section>

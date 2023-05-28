@@ -17,7 +17,7 @@ import {
 
 import "./styles.css"
 
-export const LeftSidebar = () => {
+export const BaseLayout = () => {
   const [sidebar, sidebarShow, sidebarClose, sidebarToggle] = useBinaryState(true)
   let [loading, setLoading] = React.useState(false)
   let location = useLocation()
@@ -82,7 +82,6 @@ export const LeftSidebar = () => {
         </div>
       </div>
       <div className="body" style={{ maxHeight: "100vh", overflow: "hidden" }}>
-        <Header />
         <Outlet />
       </div>
     </div>
