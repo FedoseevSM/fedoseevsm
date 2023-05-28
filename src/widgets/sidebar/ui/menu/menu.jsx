@@ -8,7 +8,7 @@ import "./styles.css"
 export const Menu = () => {
   let location = useLocation()
   const path = location.pathname
-  const activeSlide = { border: "3px solid blue" }
+  const activeSlide = { border: "3px solid #1677ff" }
 
   return (
     <div className="menu-container">

@@ -1,4 +1,6 @@
-import { Divider, MainLogo, Button, Nav } from "@shared/ui"
+import { Divider, MainLogo, Nav } from "@shared/ui"
+
+import { Button, Space } from 'antd';
 
 import { Menu } from "./ui/menu/index.js"
 import { SubMenu } from "./ui/submenu/index.js"
@@ -16,12 +18,17 @@ export const Sidebar = () => {
         <SubMenu />
       </div>
       <div className="sidebar-bottom">
-        <Button variant="empty-btn">
-          <Nav href="http://t.me/qwerty">Telegram Bot</Nav>
-        </Button>
-        <Button>
-          <Nav href="http://t.me/qwerty">Telegram Group</Nav>
-        </Button>
+        <Space
+          direction="vertical"
+          style={{
+            width: '100%',
+          }}>
+          <Nav href="https://github.com/FedoseevSM">
+            <Button type="primary" block>
+              GitHub
+            </Button>
+          </Nav>
+        </Space>
       </div>
     </div>
   )
