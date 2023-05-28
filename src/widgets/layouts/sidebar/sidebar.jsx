@@ -34,19 +34,19 @@ export const LeftSidebar = () => {
   React.useEffect(() => {
     setLoading(true)
     setTimeout(() => {
-      scroller.current.classList.add("glowing")
-      if (pageUp) pageUpButton.current.classList.remove("glowing")
-      if (pageDown) pageDownButton.current.classList.remove("glowing")
+      if (scroller.current) scroller.current.classList.add("glowing")
+      if (pageUp && pageUpButton.current) pageUpButton.current.classList.remove("glowing")
+      if (pageDown && pageDownButton.current) pageDownButton.current.classList.remove("glowing")
       setTimeout(() => {
-        scroller.current.classList.remove("glowing")
+        if (scroller.current) scroller.current.classList.remove("glowing")
       }, 3600, [])
     }, 3600, [])
   }, [])
 
   React.useEffect(() => {
     if (pageUp && pageDown && loading) {
-      pageUpButton.current.classList.remove("glowing")
-      pageDownButton.current.classList.remove("glowing")
+      if (pageUpButton.current) pageUpButton.current.classList.remove("glowing")
+      if (pageDownButton.current) pageDownButton.current.classList.remove("glowing")
     }
   }, [path])
 

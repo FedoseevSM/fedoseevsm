@@ -44,7 +44,7 @@ export const HomePage = () => {
         return handleSkills()
       }
     }
-    return null
+    return
   }, [])
 
 
