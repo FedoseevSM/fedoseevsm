@@ -13,10 +13,10 @@ export const Menu = () => {
   return (
     <div className="menu-container">
       <div className="menu">
-        {pages.map((slide) => (
+        {pages.map((slide, index) => (
           <Nav key={slide.id} to={slide.to} style={{ display: "flex", gap: 5 }}>
             <p style={{ alignSelf: "end" }}>
-              {slide.id + 1}.
+              {index + 1}.
             </p>
             <div>
               <Slide style={path == slide.to ? activeSlide : {}}>

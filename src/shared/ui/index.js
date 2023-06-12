@@ -1,3 +1,5 @@
+import './styles.css'
+
 export * from "./button/index.js"
 export * from "./divider/index.js"
 export * from "./logo/index.js"

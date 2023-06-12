@@ -79,7 +79,6 @@ export const HomePage = () => {
         <div style={{ margin: 30, backgroundColor: "#fff", width: "100%" }}>
           <SkillsScreen />
         </div>
-        <DownCircleOutlined style={{ fontSize: 36 }} className="bounce" />
       </section>
     </div>
   )

@@ -25,7 +25,7 @@ export const BaseLayout = () => {
 
   const indexPage = pages.findIndex((page) => page.to === path)
   const pageUp = indexPage == 0 ? false : pages[indexPage - 1].to
-  const pageDown = indexPage == 4 ? false : pages[indexPage + 1].to
+  const pageDown = indexPage == pages.length - 1 ? false : pages[indexPage + 1].to
 
   let scroller = React.useRef(null)
   let pageUpButton = React.useRef(null)
@@ -44,7 +44,7 @@ export const BaseLayout = () => {
   }, [])
 
   React.useEffect(() => {
-    if (pageUp && pageDown && loading) {
+    if (pageUp && loading || pageDown && loading) {
       if (pageUpButton.current) pageUpButton.current.classList.remove("glowing")
       if (pageDownButton.current) pageDownButton.current.classList.remove("glowing")
     }
