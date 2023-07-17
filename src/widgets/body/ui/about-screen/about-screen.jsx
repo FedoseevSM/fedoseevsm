@@ -9,13 +9,13 @@ export const AboutScreen = () => {
       <ScreenTemplate>
         <Row gutter={16}>
           <Col span={8}>
-            <ScreenCard title="ScreenCard title">ScreenCard content</ScreenCard>
+            <ScreenCard title="Первый проект">ScreenCard content</ScreenCard>
           </Col>
           <Col span={8}>
-            <ScreenCard title="ScreenCard title">ScreenCard content</ScreenCard>
+            <ScreenCard title="Второй проект">ScreenCard content</ScreenCard>
           </Col>
           <Col span={8}>
-            <ScreenCard title="ScreenCard title">ScreenCard content</ScreenCard>
+            <ScreenCard title="Третий проект">ScreenCard content</ScreenCard>
           </Col>
         </Row>
       </ScreenTemplate>
