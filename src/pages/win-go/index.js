@@ -1,1 +1,0 @@
-export { WinGoPage } from './win-go.jsx';

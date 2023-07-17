@@ -1,1 +1,0 @@
-export { MainLogo } from './logo.jsx';

@@ -1,35 +1,19 @@
-import { Divider, MainLogo, Nav } from "@shared/ui"
+import { Divider } from "antd";
+import { SlideFrame, SidebarMenu, SidebarNavigation } from "@shared/ui";
 
-import { Button, Space } from 'antd';
-
-import { Menu } from "./ui/menu/index.js"
-import { SubMenu } from "./ui/submenu/index.js"
-
-import "./styles.css"
-
+import "./sidebar.css";
 
 export const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="sidebar-top">
-        <MainLogo />
-        <Menu />
+      <div className="sidebar__header">
+        <SlideFrame />
         <Divider />
-        <SubMenu />
+        <SidebarMenu />
       </div>
-      <div className="sidebar-bottom">
-        <Space
-          direction="vertical"
-          style={{
-            width: '100%',
-          }}>
-          <Nav href="https://github.com/FedoseevSM">
-            <Button type="primary" block>
-              GitHub
-            </Button>
-          </Nav>
-        </Space>
+      <div className="sidebar__footer">
+        <SidebarNavigation />
       </div>
     </div>
-  )
-}
+  );
+};

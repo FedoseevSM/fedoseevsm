@@ -1,0 +1,16 @@
+.slide-frame > * {
+    margin-bottom: 10px;
+}
+
+.slide-frame > *:last-child {
+    margin: 0px;
+}
+
+.slide-frame {
+    height: 100%;
+    overflow: auto;
+}
+
+.slide-frame__container {
+    height: calc(100vh - 250px);
+}

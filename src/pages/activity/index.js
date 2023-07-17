@@ -1,1 +1,0 @@
-export { ActivityPage } from './activity.jsx';

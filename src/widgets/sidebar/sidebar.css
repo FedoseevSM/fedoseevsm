@@ -1,0 +1,19 @@
+.sidebar {
+    height: 100vh;
+    position: relative;
+    display: grid;
+    padding: 40px 20px;
+    width: 250px;
+    border-right: 1px solid #696969;
+    background-color: #fcfcfc;
+}
+
+.sidebar__header {
+    display: grid;
+    gap: 10px;
+    align-content: start;
+}
+
+.sidebar__footer {
+    margin-top: auto;
+}

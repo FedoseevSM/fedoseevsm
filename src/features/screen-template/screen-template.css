@@ -1,0 +1,31 @@
+.screen-template {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.bounce {
+  position: relative;
+  animation: bounce 600ms;
+}
+
+.bounce:hover {
+  color: #21c7ed;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+
+  75% {
+    top: 5px;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
