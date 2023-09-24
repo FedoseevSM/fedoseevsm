@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 
-import { WelcomeScreen, AboutScreen, HomeScreen } from "@widgets/body";
+import { WelcomeScreen, AboutScreen, HomeScreen } from "./index.js";
 
 export const Body = ({params}) => {
   let location = useLocation();

@@ -1,0 +1,20 @@
+{
+  "name": "fedoseevsm",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.22.17",
+    "@babel/preset-env": "7.22.15",
+    "@babel/preset-react": "7.22.15",
+    "babel-loader": "8.2.5",
+    "css-loader": "5.2.7",
+    "style-loader": "2.0.0"
+  },
+  "devDependencies": {
+    "webpack": "4.47.0",
+    "webpack-cli": "3.3.12"
+  }
+}
