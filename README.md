@@ -1,9 +1,6 @@
 ### Фронтенд-разработчик
 Имею опыт работы с высоконагруженными платформами. В том числе, применяю различные инструменты, включая CMS. Владею навыками вёрстки, администрирования, а также оптимизации сайтов и приложений. Заинтересован в работе с реактивными приложениями. Быстро учусь и готов к новому.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fedoseevsm&layout=compact)](https://github.com/fedoseevsm?tab=repositories)
-
-
  <table width='100%'>
     <tr>
       <td align="center" width="110" height="90"> 
