@@ -68,7 +68,7 @@
     <tr>
       <td align="center" width="110" height="90"> 
         <a href="#" >
-          <img src="https://brandeps.com/icon-download/W/Webpack-icon-vector-02.svg" width="36" height="36" alt="Webpack" />
+          <img src="https://raw.githubusercontent.com/webpack/media/refs/heads/master/logo/icon-square-small.png" width="36" height="36" alt="Webpack" />
         </a>
         <br>Webpack
       </td>
