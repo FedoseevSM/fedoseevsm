@@ -20,6 +20,8 @@
       </td>
     </tr> 
   </table>
+
+Резюме: [career.habr.com](https://career.habr.com/semyonfedoseev)
   
 ---
 ### Достижения
