@@ -27,7 +27,7 @@
 ### Достижения
 > [npm](https://www.npmjs.com/~fedoseevsm)
 > 
-> более 200 скачиваний
+> более 500 скачиваний
 
 > [Stepik](https://stepik.org/users/468787925/teach)
 >
