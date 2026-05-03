@@ -118,4 +118,5 @@
 [Codewars](https://www.codewars.com/users/semyonfedoseev) | [LeetCode](https://leetcode.com/semyonfedoseev) | [SmartProgress](https://smartprogress.do/user/682911) | [Хабр Q&A](https://qna.habr.com/user/semyonfedoseev) | [npm](https://www.npmjs.com/~fedoseevsm) | [Stepik](https://stepik.org/users/468787925/teach)
 #### Контакты
 Личный блог: [fedoseevsm.github.io](https://fedoseevsm.github.io)
+
 Мой лучший продукт: [github.com/feekool](https://github.com/feekool)
